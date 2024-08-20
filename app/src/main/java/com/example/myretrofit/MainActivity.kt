@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello $name!, this is my first app",
         modifier = modifier
     )
 }
@@ -53,7 +53,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyRetrofitTheme {
-        Greeting("Android")
+        Greeting("Android ")
     }
 }
 
